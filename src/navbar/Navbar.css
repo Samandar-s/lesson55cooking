@@ -1,0 +1,63 @@
+
+
+.nav_top{
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+.nav_top .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav_top a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav_bottom{
+    background-color: rgb(222, 222, 222);
+}
+.fa-circle-half-stroke{
+    cursor: pointer;
+}
+.nav_bottom .container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-circle-half-stroke{
+    font-size: 30px;
+}
+
+.colors{
+    display: flex;
+    gap: 20px;
+}
+
+.colors div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red ;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}

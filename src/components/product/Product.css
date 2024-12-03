@@ -1,0 +1,70 @@
+.card{
+    width: 350px;
+    padding: 10px 20px;
+    background-color: rgb(95, 84, 84);
+    border: 5px solid #00ffee;
+    border-radius: 12px;
+    margin-top: 60px;
+    box-shadow: 0 0 25px #00ffee;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.5);
+}
+
+
+
+.card_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 254, 254);
+}
+.card_title h1{
+    font-family: monospace;
+    color: #00ffee;
+    font-size: 32px;
+}
+.time{
+    margin: 15px 0px 10px 0px;
+    color: white;
+}
+.fa-clock{
+    color: orange;
+    margin-left: 5px;
+}
+.card p{
+    color: white;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.card p:nth-child(3){
+    color: white;
+    margin-bottom: 10px;
+}
+.card_btn{
+    padding: 5px 10px ;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(126, 119, 119);
+    border: 2px solid #00ffee;
+    background-color: #ffffff31;
+    color: #00ffee;
+    text-decoration: none;
+    padding: 10px 40px;
+    justify-content: center;
+    margin-left: 60px;
+    box-shadow: 0 0 25px #00ffee;
+    border-radius: 12px;
+}
+
+.card_btn,
+.card:hover{
+    box-shadow: 0 0 25px #00ffee,
+                0 0 50px #00ffee,
+                0 0 100px #00ffee;
+                
+}
